@@ -1,0 +1,28 @@
+{
+  "name": "surge-coders-web",
+  "version": "1.0.0",
+  "description": "/*IMPORTANT NOTES INSTALLING TAILWIND SCRIPTS*/",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss ./src/styles.css -o ./public/styles.css",
+    "prod": "NODE_ENV=production postcss ./src/styles.css -o ./public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Surge-Coders/surge-coders-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Surge-Coders/surge-coders-web/issues"
+  },
+  "homepage": "https://github.com/Surge-Coders/surge-coders-web#readme",
+  "dependencies": {
+    "autoprefixer": "^10.2.5",
+    "live-server": "^1.2.1",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.1.1",
+    "win-node-env": "^0.4.0"
+  }
+}
